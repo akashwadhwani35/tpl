@@ -135,6 +135,15 @@ const Navbar = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          href="#process"
+        >
+          Process
+        </MenuItem>
+        <MenuItem 
+          scrolled={scrolled}
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
           href="#about"
         >
           About
@@ -143,7 +152,7 @@ const Navbar = () => {
           scrolled={scrolled}
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
           href="#contact"
         >
           Contact

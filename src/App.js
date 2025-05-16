@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
+import Process from './components/Process';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -44,6 +45,7 @@ function App() {
       <Navbar />
       <Hero />
       <Products />
+      <Process />
       <About />
       <Contact />
       <Footer />
